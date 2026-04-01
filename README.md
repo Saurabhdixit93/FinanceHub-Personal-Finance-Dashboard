@@ -101,27 +101,27 @@ FinanceHub is a single-page application that provides a comprehensive view of pe
 
 ```
 ┌──────────────────────────────────────────────────┐
-│                    React App                      │
-│  ┌────────────┐  ┌─────────────┐  ┌───────────┐ │
-│  │  Dashboard  │  │Transactions │  │  Insights  │ │
-│  │    Page     │  │    Page     │  │    Page    │ │
-│  └─────┬──────┘  └──────┬──────┘  └─────┬─────┘ │
+│                    React App                     │
+│  ┌────────────┐  ┌─────────────┐  ┌───────────┐  │
+│  │  Dashboard │  │Transactions │  │  Insights │  │
+│  │    Page    │  │    Page     │  │    Page   │  │
+│  └─────┬──────┘  └──────┬──────┘  └─────┬─────┘  │
 │        │                │               │        │
 │  ┌─────▼────────────────▼───────────────▼──────┐ │
-│  │          Memoized Selectors (Reselect)       │ │
+│  │          Memoized Selectors (Reselect)      │ │
 │  └─────────────────────┬───────────────────────┘ │
 │                        │                         │
 │  ┌─────────────────────▼───────────────────────┐ │
-│  │            Redux Toolkit Store               │ │
-│  │  ┌──────────┐ ┌─────────┐ ┌──────────────┐ │ │
-│  │  │ trans-   │ │ filters │ │      ui      │ │ │
-│  │  │ actions  │ │  slice  │ │    slice     │ │ │
-│  │  └──────────┘ └─────────┘ └──────────────┘ │ │
+│  │            Redux Toolkit Store              │ │
+│  │  ┌──────────┐ ┌─────────┐ ┌──────────────┐  │ │
+│  │  │ trans-   │ │ filters │ │      ui      │  │ │
+│  │  │ actions  │ │  slice  │ │    slice     │  │ │
+│  │  └──────────┘ └─────────┘ └──────────────┘  │ │
 │  └─────────────────────┬───────────────────────┘ │
 │                        │                         │
 │  ┌─────────────────────▼───────────────────────┐ │
-│  │        localStorage Middleware               │ │
-│  │   (auto-persist on every dispatch)           │ │
+│  │        localStorage Middleware              │ │
+│  │   (auto-persist on every dispatch)          │ │
 │  └─────────────────────────────────────────────┘ │
 └──────────────────────────────────────────────────┘
 ```
@@ -139,8 +139,8 @@ FinanceHub is a single-page application that provides a comprehensive view of pe
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd FINANCE_DASHBOARD
+git clone https://github.com/Saurabhdixit93/FinanceHub-Personal-Finance-Dashboard
+cd FinanceHub-Personal-Finance-Dashboard
 
 # Install dependencies
 npm install
